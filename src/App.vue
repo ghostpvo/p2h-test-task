@@ -1,18 +1,15 @@
 <template>
   <div id="app">
-
-    <Header />
     <FirstScreen />
   </div>
 </template>
 
 <script>
 
-import Header from './components/Header/Header'
-import FirstScreen from './components/MainOffer/MainOffer'
+import FirstScreen from './components/FirstScreen/FirstScreen'
 export default {
   name: 'App',
-  components: { Header, FirstScreen }
+  components: { FirstScreen }
 }
 </script>
 

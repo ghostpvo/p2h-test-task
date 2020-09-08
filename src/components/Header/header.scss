@@ -1,0 +1,39 @@
+.general-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.logo-group {
+  .logo-title {
+    color: $general-clr;
+    @include font(h-third, 400, $font-second);
+    letter-spacing: 1.85px;
+  }
+
+  .logo-description {
+    color: $white-clr;
+    @include font(body-m);
+    letter-spacing: 1.4px;
+  }
+}
+
+.header-menu {
+  display: flex;
+  padding-top: 10px;
+
+  .menu-item {
+    display: block;
+    padding: 2px 0;
+    margin-left: 40px;
+    color: $grey-clr;
+    @include font(body);
+    border-bottom: 3px solid transparent;
+
+    &:hover {
+      color: $white-clr;
+      border-bottom-color: $general-clr;
+    }
+  }
+}
