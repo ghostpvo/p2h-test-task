@@ -3,6 +3,7 @@
     <FirstScreen />
     <AboutUs />
     <OurFriends />
+    <YouCanHelp />
   </div>
 </template>
 
@@ -11,9 +12,10 @@
 import FirstScreen from './components/FirstScreen/FirstScreen'
 import AboutUs from './components/AboutUs/AboutUs'
 import OurFriends from './components/OurFriends/OurFriends'
+import YouCanHelp from './components/YouCanHelp/YouCanHelp'
 export default {
   name: 'App',
-  components: { OurFriends, AboutUs, FirstScreen }
+  components: { YouCanHelp, OurFriends, AboutUs, FirstScreen }
 }
 </script>
 
