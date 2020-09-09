@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     getSprite (type) {
-      return require(`~/static/sprite/sprite.svg`) + '#' + type
+      return require('../../assets/sprite/sprite.svg') + '#' + type
     }
   }
 }

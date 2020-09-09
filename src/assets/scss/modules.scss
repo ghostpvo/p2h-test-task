@@ -6,18 +6,33 @@
   padding-left: 30px;
 }
 
+.block-title {
+  @include font(h-second, 400, $font-second);
+  color: $dark-clr;
+  letter-spacing: 2px;
+}
+
 .main-btn {
   display: inline-block;
   padding: 13px 41px;
   @include font(body-l, 400, $font-second);
   color: $black-clr;
   letter-spacing: 1.1px;
-  background: $general-clr;
+  background-color: $general-clr;
   border-radius: 27px;
-  border: 2px solid $general-clr;
+  border: 2px solid transparent;
   transition: background .3s ease;
 
   &:hover {
-    background: $white-clr;
+    background-color: $general-alt-clr;
+  }
+
+  &-alt {
+    background-color: $white-clr;
+    border-color: $general-clr;
+
+    &:hover {
+      background-color: $general-clr;
+    }
   }
 }

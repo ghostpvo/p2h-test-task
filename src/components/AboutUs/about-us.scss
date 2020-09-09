@@ -1,0 +1,27 @@
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 88px 0;
+}
+
+.about-us-picture {
+  margin-right: 120px;
+}
+
+.about-us-description {
+
+}
+
+.description-title {
+  width: 315px;
+  max-width: 100%;
+}
+
+.description-text {
+  width: 425px;
+  max-width: 100%;
+  margin-top: 24px;
+  @include font(body);
+  color: $dark-clr;
+}
