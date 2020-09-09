@@ -1,12 +1,23 @@
 .general-footer {
   display: flex;
-  padding: 70px 0 53px;
+  padding-top: 70px;
+  padding-bottom: 53px;
 
   &-wrap {
     background-image: url("../../assets/img/footer-bg.jpg");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  @include r-max($break-t) {
+    display: block;
+    background-color: rgba(0, 0, 0, .35);
+
+    &-wrap {
+      background-image: url("../../assets/img/first-screen-bg-desctop.jpg");
+      background-position-x: 60%;
+    }
   }
 }
 
@@ -18,6 +29,15 @@
   .block-title {
     padding-bottom: 21px;
     color: #fff;
+  }
+
+  @include r-max($break-d) {
+    margin-right: 50px;
+    margin-left: 0;
+  }
+
+  @include r-max($break-t) {
+    margin: 25px 0;
   }
 }
 

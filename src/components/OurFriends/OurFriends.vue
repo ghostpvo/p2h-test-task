@@ -6,9 +6,7 @@
         <agile
           class="friends-list"
           ref="petsCarousel"
-          :dots="false"
-          :navButtons="false"
-          :slides-to-show="3"
+          :options="agileOptions"
         >
           <div
             class="friend-item-wrap"
@@ -90,7 +88,26 @@ export default {
           name: 'Woody',
           pic: 'friend-3.jpg'
         }
-      ]
+      ],
+      agileOptions: {
+        dots: false,
+        navButtons: false,
+        slidesToShow: 1,
+        responsive: [
+          {
+            breakpoint: 1003,
+            settings: {
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 750,
+            settings: {
+              slidesToShow: 2
+            }
+          }
+        ]
+      }
     }
   }
 }

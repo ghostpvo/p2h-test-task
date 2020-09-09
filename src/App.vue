@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <FirstScreen />
-    <AboutUs />
-    <OurFriends />
-    <YouCanHelp />
+    <AboutUs id="about-the-shelter" />
+    <OurFriends id="our-friends-block" />
+    <YouCanHelp id="help-shelter" />
     <Donation />
-    <Footer />
+    <Footer id="general-footer"/>
   </div>
 </template>
 

@@ -8,12 +8,14 @@
           can make a donation
         </h3>
         <strong class="bank-info">Name of the bank / Type of bank account</strong>
-        <div class="bank-card">
+        <div
+          class="bank-card"
+        >
           <Icon
             :icon="'credit-card'"
           />
           <span class="credit-card-number">
-            8380 2880 8028 8791 7435
+            {{ creditCardNumber }}
           </span>
         </div>
         <p class="legal-information">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -28,7 +30,12 @@
 import Icon from '../Icon/Icon'
 export default {
   name: 'Donation',
-  components: { Icon }
+  components: { Icon },
+  data () {
+    return {
+      creditCardNumber: '8380 2880 8028 8791 7435'
+    }
+  }
 }
 </script>
 

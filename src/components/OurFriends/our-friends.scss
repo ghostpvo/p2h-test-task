@@ -13,6 +13,14 @@
   &-wrap {
     position: relative;
   }
+
+  @include r-max(1150px) {
+    padding: 0 40px;
+  }
+
+  @include r-max(450px) {
+    padding: 0;
+  }
 }
 
 .friend-item {
@@ -28,6 +36,10 @@
   &:hover {
     box-shadow: 0 0 35px rgba(13, 13, 13, .04);
   }
+}
+
+.friend-picture {
+  max-width: 100%;
 }
 
 .friend-name {

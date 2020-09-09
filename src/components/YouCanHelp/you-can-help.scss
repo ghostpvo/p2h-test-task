@@ -21,6 +21,14 @@
   .icon {
     height: 58px;
   }
+
+  @include r-max($break-d) {
+    width: 33%;
+  }
+
+  @include r-max($break-t) {
+    width: 50%;
+  }
 }
 
 .item-text {

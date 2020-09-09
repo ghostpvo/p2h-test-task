@@ -1,5 +1,9 @@
 .main-offer {
   padding: 240px 0 268px;
+
+  @include r-max($break-d) {
+    padding: 80px 0;
+  }
 }
 
 .block-intro-text {
