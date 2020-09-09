@@ -1,0 +1,53 @@
+.general-footer {
+  display: flex;
+  padding: 70px 0 53px;
+
+  &-wrap {
+    background-image: url("../../assets/img/footer-bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.footer-group {
+  width: 300px;
+  margin-right: 120px;
+  margin-left: 31px;
+
+  .block-title {
+    padding-bottom: 21px;
+    color: #fff;
+  }
+}
+
+.footer-info-item {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  margin-bottom: 8px;
+
+  .icon {
+    width: 30px;
+    margin-right: 23px;
+
+    &.pin {
+      width: 35px;
+      margin-right: 17px;
+      margin-left: -5px;
+    }
+
+    &.envelope,
+    &.telephone {
+      width: 40px;
+    }
+  }
+}
+
+.footer-address-data {
+  display: block;
+  max-width: 245px;
+  @include font(h-fourth, 400, $font-second);
+  color: $general-clr;
+  letter-spacing: 0.5px;
+}

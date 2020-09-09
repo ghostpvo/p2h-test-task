@@ -11,7 +11,6 @@
         <div class="bank-card">
           <Icon
             :icon="'credit-card'"
-            :tittle="'Credit card'"
           />
           <span class="credit-card-number">
             8380 2880 8028 8791 7435

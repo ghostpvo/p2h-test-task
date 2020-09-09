@@ -12,7 +12,6 @@
       >
         <Icon
           :icon="item.icon"
-          :title="item.text"
         />
         <span class="item-text">
           {{ item.text }}

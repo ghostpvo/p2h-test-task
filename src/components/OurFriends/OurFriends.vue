@@ -37,7 +37,6 @@
           >
             <Icon
               :icon="'long-right-arrow'"
-              :tittle="'Arrow right'"
             />
           </button>
           <button
@@ -46,7 +45,6 @@
           >
             <Icon
               :icon="'long-left-arrow'"
-              :tittle="'Arrow left'"
             />
           </button>
         </div>

@@ -5,6 +5,7 @@
     <OurFriends />
     <YouCanHelp />
     <Donation />
+    <Footer />
   </div>
 </template>
 
@@ -15,9 +16,10 @@ import AboutUs from './components/AboutUs/AboutUs'
 import OurFriends from './components/OurFriends/OurFriends'
 import YouCanHelp from './components/YouCanHelp/YouCanHelp'
 import Donation from './components/Donation/Donation'
+import Footer from './components/Footer/Footer'
 export default {
   name: 'App',
-  components: { Donation, YouCanHelp, OurFriends, AboutUs, FirstScreen }
+  components: { Footer, Donation, YouCanHelp, OurFriends, AboutUs, FirstScreen }
 }
 </script>
 

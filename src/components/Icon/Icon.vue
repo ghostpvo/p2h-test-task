@@ -4,9 +4,8 @@
     class="icon"
     viewBox="0 0 100 100"
   >
-    <!-- TODO '~' - не работал в обратных кавычках, временно поставил '/_nuxt/', надо сделать норм -->
     <use :xlink:href="getSprite(iconId)">
-      {{ tittle }}
+      {{ icon }}
     </use>
   </svg>
 </template>
@@ -16,10 +15,6 @@ export default {
   name: 'Icon',
   props: {
     icon: {
-      type: String,
-      default: ''
-    },
-    tittle: {
       type: String,
       default: ''
     },
