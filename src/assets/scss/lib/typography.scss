@@ -1,6 +1,7 @@
 // Font families
 $font-general: 'Arial', sans-serif;
-$font-second: 'Georgia', serif;
+$font-second:  'Georgia', serif;
+$font-third:   'Times New Roman', serif;
 
 // Typography general mixin
 @mixin font($type, $font-weight: null, $font-family: null) {
@@ -57,7 +58,7 @@ $line-heights-map: (
   body-l:     (mobile: 1.4, tablet: 1.4, desktop: 1.4),
   body:       (mobile: 1.6, tablet: 1.6, desktop: 1.6),
   body-m:     (mobile: 1.4, tablet: 1.4, desktop: 1.25),
-  body-s:     (mobile: 1.4, tablet: 1.4, desktop: 1.4)
+  body-s:     (mobile: 1.4, tablet: 1.4, desktop: 1.5)
 );
 
 // Get line height

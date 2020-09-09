@@ -1,0 +1,57 @@
+.donation {
+  display: flex;
+  align-items: flex-end;
+  padding: 60px 0 80px;
+
+  &-wrap {
+    background-color: $light-grey-clr;
+  }
+}
+
+.donation-picture {
+  margin-left: 47px;
+  padding-bottom: 6px;
+}
+
+.donation-content {
+  width: 385px;
+  margin-left: 62px;
+}
+
+.bank-info {
+  display: block;
+  margin-top: 18px;
+  @include font(body, 400, $font-second);
+  color: $dark-clr;
+  letter-spacing: 1.1px;
+}
+
+.bank-card {
+  display: inline-block;
+  padding: 8px 15px;
+  margin-top: 10px;
+  background-color: $general-clr;
+  border-radius: 7px;
+
+  .icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    margin-right: 14px;
+  }
+}
+
+.credit-card-number {
+  display: inline-block;
+  vertical-align: middle;
+  @include font(h-fourth, 400, $font-third);
+  letter-spacing: 1.2px;
+  color: $black-clr;
+}
+
+.legal-information {
+  margin-top: 30px;
+  @include font(body-s);
+  font-style: italic;
+  color: $dark-grey-clr;
+}
